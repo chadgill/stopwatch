@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#time{
+    background-color: white;
+    font-size: 48px;
+    color: black;
+    position: absolute;
+    left: 70px;
+    top: 90px;
+    margin-bottom: 16px
+}
+ #startPause{
+     background-color: grey;
+     border: black;
+     color: white;
+     font-size: 22px;
+     border-radius: 200%;
+     padding: 14px;
+     position:relative;
+     left: 10px;
+     top: 160px;
+ }
+ #startPause:active {
+     background-color: green;
+     box-shadow: black;
+     transform: translateY(4px);
+ }
+ #clear{
+     background-color: grey;
+     border: black;
+     color: white;
+     font-size: 22px;
+     border-radius: 200%;
+     padding: 14px;
+     position:relative;
+     left: 90px;
+     top: 160px;
+ }
+ #clear:active {
+     background-color: black;
+     box-shadow: black;
+     transform: translateY(4px);
+ }
