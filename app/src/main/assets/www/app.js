@@ -2,7 +2,6 @@ var time = 0
 var running = false
 
 function startPause() {
- console.log("here")
     if(running == false){
         running = true;
         increment();
